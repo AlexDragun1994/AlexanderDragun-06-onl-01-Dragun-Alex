@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url('awesome.css');
+@import url('pricing.css');
+
+
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,74 +19,3 @@
     font-family: 'Open Sans';
 }
 
-.header {
-    margin: auto;
-    height: 40%;
-    padding-top: 100px;
-    padding-bottom: 25px;
-}
-
-.header__title{
-   text-align: center;
-   text-transform: uppercase;
-   font-family: 'Raleway';
-   font-size: 36px;
-   font-weight: 400;
-   font-style: normal;
-}
-
-.header__devider{
-    width: 64px;
-    height: 2px;
-    background-color: #d98943;
-    margin: 20px auto;
-}
-
-.header__text{
-    text-align: center;
-    color: #86878B;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    margin: 30px auto;
-}
-
-.content{
-    display: flex;
-    padding: 20px;
-}
-
-.content__element{
-    padding: 20px;
-}
-
-.content__image-container{
-    border: 1px solid #D98943;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.content__image{
-    text-align: center;
-}
-
-.content__title{
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;
-    color: #333333;
-    margin: 30px auto 20px auto;
-}
-
-.content__description{
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    text-align: center;
-}
